@@ -1,67 +1,387 @@
 {
-"artists": [
-  {
-    "id": 1,
-    "name": "Daft Punk",
-    "country": "France",
-    "imageUrl": "/images/artists/daftpunk.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Radiohead",
-    "country": "UK",
-    "imageUrl": "/images/artists/radiohead.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Björk",
-    "country": "Iceland",
-    "imageUrl": "/images/artists/bjork.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Kendrick Lamar",
-    "country": "USA",
-    "imageUrl": "/images/artists/kendrick.jpeg"
-  },
-  {
-    "id": 5,
-    "name": "Deftones",
-    "country": "USA",
-    "imageUrl": "/images/artists/deftones.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Nina Simone",
-    "country": "USA",
-    "imageUrl": "/images/artists/ninasimone.jpg"
-  }
-]
-,
+  "artists": [
+    {
+      "id": 1,
+      "name": "Daft Punk",
+      "country": "France",
+      "imageUrl": "/images/artists/daftpunk.jpg",
+      "bio": "French electronic duo known for blending house, funk, and futuristic pop with iconic visuals."
+    },
+    {
+      "id": 2,
+      "name": "Radiohead",
+      "country": "UK",
+      "imageUrl": "/images/artists/radiohead.jpg",
+      "bio": "British band celebrated for pushing rock forward with experimental production, emotion, and atmosphere."
+    },
+    {
+      "id": 3,
+      "name": "Björk",
+      "country": "Iceland",
+      "imageUrl": "/images/artists/bjork.jpg",
+      "bio": "Icelandic artist with a bold, genre-bending catalog mixing electronic, orchestral, and avant-pop."
+    },
+    {
+      "id": 4,
+      "name": "Kendrick Lamar",
+      "country": "USA",
+      "imageUrl": "/images/artists/kendrick.jpeg",
+      "bio": "American rapper known for cinematic storytelling, sharp writing, and socially conscious themes."
+    },
+    {
+      "id": 5,
+      "name": "Deftones",
+      "country": "USA",
+      "imageUrl": "/images/artists/deftones.jpg",
+      "bio": "Alternative metal band combining heavy riffs with dreamy textures and emotional vocals."
+    },
+    {
+      "id": 6,
+      "name": "Nina Simone",
+      "country": "USA",
+      "imageUrl": "/images/artists/ninasimone.jpg",
+      "bio": "Legendary singer and pianist whose work spans jazz, soul, and civil-rights era protest music."
+    }
+    {
+  "id": 7,
+  "name": "Bad Bunny",
+  "country": "Puerto Rico",
+  "imageUrl": "/images/artists/badbunny.jpg",
+  "bio": "Global Latin superstar blending reggaeton, trap, and pop with genre-bending production and cultural impact."
+},
+{
+  "id": 8,
+  "name": "Aphex Twin",
+  "country": "UK",
+  "imageUrl": "/images/artists/aphextwin.jpg",
+  "bio": "Electronic music pioneer known for experimental IDM, ambient textures, and intricate rhythmic programming."
+},
+{
+  "id": 9,
+  "name": "Massive Attack",
+  "country": "UK",
+  "imageUrl": "/images/artists/massiveattack.jpg",
+  "bio": "Trip-hop innovators merging hip-hop beats, dub atmospheres, and haunting vocals into cinematic soundscapes."
+},
+{
+  "id": 10,
+  "name": "Amy Winehouse",
+  "country": "UK",
+  "imageUrl": "/images/artists/amywinehouse.jpg",
+  "bio": "Soul and jazz singer with a timeless voice, blending vintage styles with modern songwriting."
+}
+
+  ],
   "releases": [
-  { "id": 101, "title": "Discovery", "coverUrl": "/images/covers/discovery.jpg", "artistId": 1 },
-  { "id": 102, "title": "Random Access Memories", "coverUrl": "/images/covers/ram.jpg", "artistId": 1 },
-  { "id": 103, "title": "Homework", "coverUrl": "/images/covers/homework.jpg", "artistId": 1 },
+    {
+      "id": 101,
+      "title": "Discovery",
+      "year": 2001,
+      "genre": "Electronic",
+      "rating": 5,
+      "review": "A glittering, feel-good journey through house and pop that still sounds futuristic.",
+      "coverUrl": "/images/covers/discovery.jpg",
+      "artistId": 1
+    },
+    {
+      "id": 102,
+      "title": "Random Access Memories",
+      "year": 2013,
+      "genre": "Electronic",
+      "rating": 4,
+      "review": "A warm tribute to analog groove—luxurious production and timeless songwriting.",
+      "coverUrl": "/images/covers/ram.jpg",
+      "artistId": 1
+    },
+    {
+      "id": 103,
+      "title": "Homework",
+      "year": 1997,
+      "genre": "Electronic",
+      "rating": 4,
+      "review": "Raw and driving French house with a DIY edge and club-first energy.",
+      "coverUrl": "/images/covers/homework.jpg",
+      "artistId": 1
+    },
 
-  { "id": 104, "title": "OK Computer", "coverUrl": "/images/covers/okcomputer.jpg", "artistId": 2 },
-  { "id": 105, "title": "Kid A", "coverUrl": "/images/covers/kida.jpg", "artistId": 2 },
-  { "id": 106, "title": "In Rainbows", "coverUrl": "/images/covers/inrainbows.jpg", "artistId": 2 },
+    {
+      "id": 104,
+      "title": "OK Computer",
+      "year": 1997,
+      "genre": "Alternative",
+      "rating": 5,
+      "review": "Anxiety, technology, and big melodies—one of the defining albums of modern rock.",
+      "coverUrl": "/images/covers/okcomputer.jpg",
+      "artistId": 2
+    },
+    {
+      "id": 105,
+      "title": "Kid A",
+      "year": 2000,
+      "genre": "Alternative",
+      "rating": 5,
+      "review": "A bold left turn into electronic minimalism and alien beauty—still endlessly influential.",
+      "coverUrl": "/images/covers/kida.jpg",
+      "artistId": 2
+    },
+    {
+      "id": 106,
+      "title": "In Rainbows",
+      "year": 2007,
+      "genre": "Alternative",
+      "rating": 5,
+      "review": "Warm, intimate, and rhythmically rich—Radiohead at their most human and elegant.",
+      "coverUrl": "/images/covers/inrainbows.jpg",
+      "artistId": 2
+    },
 
-  { "id": 107, "title": "Homogenic", "coverUrl": "/images/covers/homogenic.png", "artistId": 3 },
-  { "id": 108, "title": "Post", "coverUrl": "/images/covers/post.jpg", "artistId": 3 },
-  { "id": 109, "title": "Vespertine", "coverUrl": "/images/covers/vespertine.jpg", "artistId": 3 },
+    {
+      "id": 107,
+      "title": "Homogenic",
+      "year": 1997,
+      "genre": "Art Pop",
+      "rating": 5,
+      "review": "Volcanic beats and strings—an intense, emotional blend of electronic and orchestral power.",
+      "coverUrl": "/images/covers/homogenic.png",
+      "artistId": 3
+    },
+    {
+      "id": 108,
+      "title": "Post",
+      "year": 1995,
+      "genre": "Art Pop",
+      "rating": 4,
+      "review": "Playful and dramatic—Bjork jumps genres with huge hooks and fearless experimentation.",
+      "coverUrl": "/images/covers/post.jpg",
+      "artistId": 3
+    },
+    {
+      "id": 109,
+      "title": "Vespertine",
+      "year": 2001,
+      "genre": "Electronic",
+      "rating": 5,
+      "review": "Delicate microbeats, choirs, and intimacy—an album that feels like falling snow.",
+      "coverUrl": "/images/covers/vespertine.jpg",
+      "artistId": 3
+    },
 
-  { "id": 110, "title": "good kid, m.A.A.d city", "coverUrl": "/images/covers/goodkid.jpg", "artistId": 4 },
-  { "id": 111, "title": "To Pimp a Butterfly", "coverUrl": "/images/covers/tpab.jpg", "artistId": 4 },
-  { "id": 112, "title": "DAMN.", "coverUrl": "/images/covers/damn.jpg", "artistId": 4 },
+    {
+      "id": 110,
+      "title": "good kid, m.A.A.d city",
+      "year": 2012,
+      "genre": "Hip-Hop",
+      "rating": 5,
+      "review": "A vivid coming-of-age film in album form—storytelling at its sharpest.",
+      "coverUrl": "/images/covers/goodkid.jpg",
+      "artistId": 4
+    },
+    {
+      "id": 111,
+      "title": "To Pimp a Butterfly",
+      "year": 2015,
+      "genre": "Hip-Hop",
+      "rating": 5,
+      "review": "Jazz-funk ambition with urgent politics—dense, challenging, and deeply rewarding.",
+      "coverUrl": "/images/covers/tpab.jpg",
+      "artistId": 4
+    },
+    {
+      "id": 112,
+      "title": "DAMN.",
+      "year": 2017,
+      "genre": "Hip-Hop",
+      "rating": 4,
+      "review": "Tight, punchy, and immediate—hits hard while keeping Kendrick’s depth.",
+      "coverUrl": "/images/covers/damn.jpg",
+      "artistId": 4
+    },
 
-  { "id": 113, "title": "White Pony", "coverUrl": "/images/covers/whitepony.jpg", "artistId": 5 },
-  { "id": 114, "title": "Around the Fur", "coverUrl": "/images/covers/atf.jpg", "artistId": 5 },
-  { "id": 115, "title": "Koi No Yokan", "coverUrl": "/images/covers/koinoyokan.jpg", "artistId": 5 },
+    {
+      "id": 113,
+      "title": "White Pony",
+      "year": 2000,
+      "genre": "Metal",
+      "rating": 5,
+      "review": "Heavy and dreamy at once—lush textures over crushing riffs, a modern classic.",
+      "coverUrl": "/images/covers/whitepony.jpg",
+      "artistId": 5
+    },
+    {
+      "id": 114,
+      "title": "Around the Fur",
+      "year": 1997,
+      "genre": "Metal",
+      "rating": 4,
+      "review": "Aggressive, raw, and atmospheric—pure late-90s adrenaline with a dark glow.",
+      "coverUrl": "/images/covers/atf.jpg",
+      "artistId": 5
+    },
+    {
+      "id": 115,
+      "title": "Koi No Yokan",
+      "year": 2012,
+      "genre": "Metal",
+      "rating": 4,
+      "review": "Polished and melodic—big hooks and heavy dynamics with a dreamy finish.",
+      "coverUrl": "/images/covers/koinoyokan.jpg",
+      "artistId": 5
+    },
 
-  { "id": 116, "title": "I Put a Spell on You", "coverUrl": "/images/covers/iputaspell.png", "artistId": 6 },
-  { "id": 117, "title": "Pastel Blues", "coverUrl": "/images/covers/pastel.jpg", "artistId": 6 },
-  { "id": 118, "title": "Little Girl Blue", "coverUrl": "/images/covers/littlegirlblue.jpg", "artistId": 6 }
-]
+    {
+      "id": 116,
+      "title": "I Put a Spell on You",
+      "year": 1965,
+      "genre": "Jazz",
+      "rating": 5,
+      "review": "Magnetic performances—Simone’s voice moves from tenderness to thunder in seconds.",
+      "coverUrl": "/images/covers/iputaspell.png",
+      "artistId": 6
+    },
+    {
+      "id": 117,
+      "title": "Pastel Blues",
+      "year": 1965,
+      "genre": "Soul",
+      "rating": 5,
+      "review": "Soulful and haunting—emotional peaks with a voice that never lets go.",
+      "coverUrl": "/images/covers/pastel.jpg",
+      "artistId": 6
+    },
+    {
+      "id": 118,
+      "title": "Little Girl Blue",
+      "year": 1959,
+      "genre": "Jazz",
+      "rating": 4,
+      "review": "A striking debut—poised, expressive, and already unmistakably Nina.",
+      "coverUrl": "/images/covers/littlegirlblue.jpg",
+      "artistId": 6
+    }
+    {
+  "id": 119,
+  "title": "Un Verano Sin Ti",
+  "year": 2022,
+  "genre": "Reggaeton",
+  "rating": 5,
+  "review": "Sunny, eclectic and addictive—an album that feels like a whole season in one play.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 7
+},
+{
+  "id": 120,
+  "title": "YHLQMDLG",
+  "year": 2020,
+  "genre": "Reggaeton",
+  "rating": 5,
+  "review": "A modern reggaeton statement: bold, fun and packed with hits and personality.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 7
+},
+{
+  "id": 121,
+  "title": "EL ÚLTIMO TOUR DEL MUNDO",
+  "year": 2020,
+  "genre": "Latin Trap",
+  "rating": 4,
+  "review": "Darker and more experimental—mixes trap with rock textures and big emotions.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 7
+},
 
+{
+  "id": 122,
+  "title": "Selected Ambient Works 85–92",
+  "year": 1992,
+  "genre": "Electronic",
+  "rating": 5,
+  "review": "Warm, hypnotic and timeless—ambient nostalgia with a subtle rave pulse.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 8
+},
+{
+  "id": 123,
+  "title": "Richard D. James Album",
+  "year": 1996,
+  "genre": "Electronic",
+  "rating": 5,
+  "review": "Playful and intense—glitchy melodies and complex drums that never sit still.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 8
+},
+{
+  "id": 124,
+  "title": "Drukqs",
+  "year": 2001,
+  "genre": "Electronic",
+  "rating": 4,
+  "review": "Chaotic and beautiful—piano interludes meet frenetic, razor-sharp beats.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 8
+},
+
+{
+  "id": 125,
+  "title": "Mezzanine",
+  "year": 1998,
+  "genre": "Trip-Hop",
+  "rating": 5,
+  "review": "Dark, cinematic and heavy—bass-driven atmospheres with unforgettable hooks.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 9
+},
+{
+  "id": 126,
+  "title": "Blue Lines",
+  "year": 1991,
+  "genre": "Trip-Hop",
+  "rating": 5,
+  "review": "The blueprint: soulful vocals, dub textures and hip-hop rhythms in perfect balance.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 9
+},
+
+{
+  "id": 127,
+  "title": "Back to Black",
+  "year": 2006,
+  "genre": "Soul",
+  "rating": 5,
+  "review": "A modern classic—raw heartbreak, sharp writing and a voice that cuts through everything.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 10
+},
+{
+  "id": 128,
+  "title": "Frank",
+  "year": 2003,
+  "genre": "Jazz",
+  "rating": 4,
+  "review": "Witty and jazzy—early brilliance with attitude and effortless phrasing.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 10
+},
+
+{
+  "id": 129,
+  "title": "The Downward Spiral",
+  "year": 1994,
+  "genre": "Industrial",
+  "rating": 5,
+  "review": "Uncomfortable, intense and cathartic—industrial rock at its most visceral.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 5
+},
+{
+  "id": 130,
+  "title": "Blackstar",
+  "year": 2016,
+  "genre": "Jazz",
+  "rating": 5,
+  "review": "Mysterious and adventurous—art-rock meets jazz in a final, brilliant statement.",
+  "coverUrl": "/images/covers/placeholder.jpg",
+  "artistId": 6
+}
+
+  ]
 }
