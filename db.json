@@ -329,7 +329,7 @@
       "genre": "Trip-Hop",
       "rating": 5,
       "review": "The blueprint: soulful vocals, dub textures and hip-hop rhythms in perfect balance.",
-      "coverUrl": "/images/covers/placeholder.jpg",
+      "coverUrl": "/images/covers/bluelines.jpg",
       "artistId": 9
     },
     {
@@ -351,26 +351,6 @@
       "review": "Witty and jazzy—early brilliance with attitude and effortless phrasing.",
       "coverUrl": "/images/covers/frank.jpg",
       "artistId": 10
-    },
-    {
-      "id": "129",
-      "title": "The Downward Spiral",
-      "year": 1994,
-      "genre": "Industrial",
-      "rating": 5,
-      "review": "Uncomfortable, intense and cathartic—industrial rock at its most visceral.",
-      "coverUrl": "/images/covers/placeholder.jpg",
-      "artistId": 5
-    },
-    {
-      "id": "130",
-      "title": "Blackstar",
-      "year": 2016,
-      "genre": "Jazz",
-      "rating": 5,
-      "review": "Mysterious and adventurous—art-rock meets jazz in a final, brilliant statement.",
-      "coverUrl": "/images/covers/placeholder.jpg",
-      "artistId": 6
     }
   ]
 }
